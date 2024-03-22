@@ -1,0 +1,83 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-image: url("Materiali/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: "Ubuntu", sans-serif;
+
+    .Box {
+        position: center;
+        padding: 5%;
+        margin-top: 25px;
+        margin-left: 15%;
+        margin-right: 15%;
+        background-color: rgba(0, 0, 0, 0.40);
+        max-width: 100%;
+        border-radius: 10px;
+
+        header {
+            text-align: center;
+
+            #Logo {
+                max-width: 35%;   
+            }
+
+            h1 {
+                font-size: 200%;
+                color: rgb(0, 218, 0);
+            }
+        }
+
+        .Funzioni {
+            text-align: center;
+            margin: 1% 0 1%;
+            padding: 8px;
+            background-color:rgb(0, 218, 0);
+        }
+
+        .InfoTracking {
+            color:aliceblue;
+            line-height: 25px;
+
+            .VehicleList {
+                list-style-type: none;
+                padding-inline-start: 0px;
+                margin-top: 2%;
+
+                .NamePlate {
+                    font-weight: bold;
+                    font-size: x-large;
+                }
+
+                .ChargeBar {
+                    max-width: 100%;
+                    padding: 1.5%;
+                    margin-bottom: 3%;
+                    border-radius: 8px;
+                }
+
+                .ChargeStatusGreen {
+                    background-color: green;
+                    width: 75%;
+                }
+
+                .ChargeStatusYellow {
+                 background-color: yellow;
+                    width: 50%;
+                }
+
+                .ChargeStatusRed {
+                    background-color: red;
+                    width: 25%;
+                }
+            }
+        }
+    }
+}
